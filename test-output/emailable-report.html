@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TestNg Amazon</th></tr>
+<tr><td><a href="#t0">Functional Testing</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">261,654</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNg Amazon</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Functional Testing &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testLayer.FilterTest</td><td><a href="#m0">FilterTest1</a></td><td rowspan="1">1663449344938</td><td rowspan="1">833</td></tr><tr class="failedodd"><td rowspan="1">testLayer.PaginationTest</td><td><a href="#m1">paginationTest1</a></td><td rowspan="1">1663449373856</td><td rowspan="1">29700</td></tr><tr><th colspan="4">Functional Testing &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testLayer.LoginTest</td><td><a href="#m2">LoginTest1</a></td><td rowspan="1">1663449409022</td><td rowspan="1">11067</td></tr><tr class="passedeven"><td><a href="#m3">LoginTitle</a></td><td rowspan="1">1663449423293</td><td rowspan="1">8</td></tr><tr class="passedodd"><td rowspan="1">testLayer.SearchTest</td><td><a href="#m4">SearchFunctionalityTest1</a></td><td rowspan="1">1663449351650</td><td rowspan="1">4298</td></tr><tr class="passedeven"><td rowspan="5">testLayer.SignupTest</td><td><a href="#m5">SignupTest1</a></td><td rowspan="4">1663449497106</td><td rowspan="4">20088</td></tr><tr class="passedeven"><td><a href="#m6">SignupTest1</a></td></tr><tr class="passedeven"><td><a href="#m7">SignupTest1</a></td></tr><tr class="passedeven"><td><a href="#m8">SignupTest1</a></td></tr><tr class="passedeven"><td><a href="#m9">Title</a></td><td rowspan="1">1663449431096</td><td rowspan="1">31</td></tr><tr class="passedodd"><td rowspan="1">testLayer.SortTest</td><td><a href="#m10">SortTest1</a></td><td rowspan="1">1663449361046</td><td rowspan="1">4304</td></tr></tbody>
+</table>
+<h2>Functional Testing</h2><h3 id="m0">testLayer.FilterTest#FilterTest1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#p_n_feature_eleven_browse-bin\/24042397011 &gt; span &gt; a &gt; span&quot;}
+  (Session info: chrome=105.0.5195.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;PAWANPREETKANG&apos;, ip: &apos;192.168.89.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b6c0b0bd44589b6166b807e708047cc, findElement {using=css selector, value=#p_n_feature_eleven_browse-bin\/24042397011 &gt; span &gt; a &gt; span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kangp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60046/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b6c0b0bd44589b6166b807e708047cc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pompackage.PomFilter.checkF(PomFilter.java:48)
+	at testLayer.FilterTest.FilterTest1(FilterTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testLayer.PaginationTest#paginationTest1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#search &gt; div.s-desktop-width-max.s-desktop-content.s-opposite-dir.sg-row &gt; div.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 &gt; div &gt; span:nth-child(4) &gt; div.s-main-slot.s-result-list.s-search-results.sg-row &gt; div:nth-child(54) &gt; div &gt; div &gt; span &gt; a:nth-child(5)&quot;}
+  (Session info: chrome=105.0.5195.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;PAWANPREETKANG&apos;, ip: &apos;192.168.89.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a16b8044d118b72b7d94ce79a03c1509, findElement {using=css selector, value=#search &gt; div.s-desktop-width-max.s-desktop-content.s-opposite-dir.sg-row &gt; div.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 &gt; div &gt; span:nth-child(4) &gt; div.s-main-slot.s-result-list.s-search-results.sg-row &gt; div:nth-child(54) &gt; div &gt; div &gt; span &gt; a:nth-child(5)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kangp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60350/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16b8044d118b72b7d94ce79a03c1509
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pompackage.PomPagination.creatingArrayofproducts(PomPagination.java:113)
+	at testLayer.PaginationTest.paginationTest1(PaginationTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testLayer.LoginTest#LoginTest1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>pawan.kang@iCloud.com</td><td>AnonymouS@sukh</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testLayer.LoginTest#LoginTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testLayer.SearchTest#SearchFunctionalityTest1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testLayer.SignupTest#SignupTest1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sukh</td><td>428-223-2222</td><td>pk</td><td>pk</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testLayer.SignupTest#SignupTest1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Arsh</td><td>678.0</td><td>p</td><td>p</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testLayer.SignupTest#SignupTest1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Manjit</td><td>avc</td><td>pkk</td><td>pkk</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testLayer.SignupTest#SignupTest1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Balraj</td><td>beeebaboyz@gmail.com</td><td>pkkkk</td><td>pkkkk</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testLayer.SignupTest#Title</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testLayer.SortTest#SortTest1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

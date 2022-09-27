@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-17T16:15:37 CDT" name="TestNg Amazon" finished-at="2022-09-17T16:19:59 CDT" duration-ms="261654">
+    <groups>
+    </groups>
+    <test started-at="2022-09-17T16:15:37 CDT" name="Functional Testing" finished-at="2022-09-17T16:19:59 CDT" duration-ms="261654">
+      <class name="testLayer.PaginationTest">
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.PaginationTest@7e0b85f9]" started-at="2022-09-17T16:16:05 CDT" name="initSetup" finished-at="2022-09-17T16:16:13 CDT" duration-ms="8502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="paginationTest1()[pri:0, instance:testLayer.PaginationTest@7e0b85f9]" started-at="2022-09-17T16:16:13 CDT" name="paginationTest1" finished-at="2022-09-17T16:16:43 CDT" duration-ms="29700" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#search > div.s-desktop-width-max.s-desktop-content.s-opposite-dir.sg-row > div.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 > div > span:nth-child(4) > div.s-main-slot.s-result-list.s-search-results.sg-row > div:nth-child(54) > div > div > span > a:nth-child(5)"}
+  (Session info: chrome=105.0.5195.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PAWANPREETKANG', ip: '192.168.89.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a16b8044d118b72b7d94ce79a03c1509, findElement {using=css selector, value=#search > div.s-desktop-width-max.s-desktop-content.s-opposite-dir.sg-row > div.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 > div > span:nth-child(4) > div.s-main-slot.s-result-list.s-search-results.sg-row > div:nth-child(54) > div > div > span > a:nth-child(5)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kangp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60350/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16b8044d118b72b7d94ce79a03c1509]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#search > div.s-desktop-width-max.s-desktop-content.s-opposite-dir.sg-row > div.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 > div > span:nth-child(4) > div.s-main-slot.s-result-list.s-search-results.sg-row > div:nth-child(54) > div > div > span > a:nth-child(5)"}
+  (Session info: chrome=105.0.5195.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PAWANPREETKANG', ip: '192.168.89.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a16b8044d118b72b7d94ce79a03c1509, findElement {using=css selector, value=#search > div.s-desktop-width-max.s-desktop-content.s-opposite-dir.sg-row > div.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 > div > span:nth-child(4) > div.s-main-slot.s-result-list.s-search-results.sg-row > div:nth-child(54) > div > div > span > a:nth-child(5)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kangp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60350/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a16b8044d118b72b7d94ce79a03c1509
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pompackage.PomPagination.creatingArrayofproducts(PomPagination.java:113)
+at testLayer.PaginationTest.paginationTest1(PaginationTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paginationTest1 -->
+      </class> <!-- testLayer.PaginationTest -->
+      <class name="testLayer.LoginTest">
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.LoginTest@63355449]" started-at="2022-09-17T16:16:44 CDT" name="initSetup" finished-at="2022-09-17T16:16:49 CDT" duration-ms="4171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="LoginTest1(java.lang.String, java.lang.String)[pri:0, instance:testLayer.LoginTest@63355449]" started-at="2022-09-17T16:16:49 CDT" name="LoginTest1" data-provider="Details" finished-at="2022-09-17T16:17:00 CDT" duration-ms="11067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pawan.kang@iCloud.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AnonymouS@sukh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest1 -->
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.LoginTest@63355449]" started-at="2022-09-17T16:17:00 CDT" name="initSetup" finished-at="2022-09-17T16:17:03 CDT" duration-ms="3193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="LoginTitle()[pri:0, instance:testLayer.LoginTest@63355449]" started-at="2022-09-17T16:17:03 CDT" name="LoginTitle" finished-at="2022-09-17T16:17:03 CDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTitle -->
+      </class> <!-- testLayer.LoginTest -->
+      <class name="testLayer.FilterTest">
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.FilterTest@654f0d9c]" started-at="2022-09-17T16:15:37 CDT" name="initSetup" finished-at="2022-09-17T16:15:44 CDT" duration-ms="6973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="FilterTest1()[pri:0, instance:testLayer.FilterTest@654f0d9c]" started-at="2022-09-17T16:15:44 CDT" name="FilterTest1" finished-at="2022-09-17T16:15:45 CDT" duration-ms="833" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#p_n_feature_eleven_browse-bin\/24042397011 > span > a > span"}
+  (Session info: chrome=105.0.5195.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PAWANPREETKANG', ip: '192.168.89.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b6c0b0bd44589b6166b807e708047cc, findElement {using=css selector, value=#p_n_feature_eleven_browse-bin\/24042397011 > span > a > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kangp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60046/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b6c0b0bd44589b6166b807e708047cc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#p_n_feature_eleven_browse-bin\/24042397011 > span > a > span"}
+  (Session info: chrome=105.0.5195.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'PAWANPREETKANG', ip: '192.168.89.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b6c0b0bd44589b6166b807e708047cc, findElement {using=css selector, value=#p_n_feature_eleven_browse-bin\/24042397011 > span > a > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.126, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kangp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60046/devtoo..., se:cdpVersion: 105.0.5195.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b6c0b0bd44589b6166b807e708047cc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pompackage.PomFilter.checkF(PomFilter.java:48)
+at testLayer.FilterTest.FilterTest1(FilterTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterTest1 -->
+      </class> <!-- testLayer.FilterTest -->
+      <class name="testLayer.SignupTest">
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:17:03 CDT" name="initSetup" finished-at="2022-09-17T16:17:11 CDT" duration-ms="7792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="Title()[pri:1, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:17:11 CDT" name="Title" finished-at="2022-09-17T16:17:11 CDT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:17:11 CDT" name="initSetup" finished-at="2022-09-17T16:17:32 CDT" duration-ms="20970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="SignupTest1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:17:32 CDT" name="SignupTest1" data-provider="Details" finished-at="2022-09-17T16:17:56 CDT" duration-ms="24206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arsh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[678.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupTest1 -->
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:17:56 CDT" name="initSetup" finished-at="2022-09-17T16:18:17 CDT" duration-ms="20672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="SignupTest1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:18:17 CDT" name="SignupTest1" data-provider="Details" finished-at="2022-09-17T16:18:37 CDT" duration-ms="20088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sukh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[428-223-2222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupTest1 -->
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:18:37 CDT" name="initSetup" finished-at="2022-09-17T16:18:57 CDT" duration-ms="20586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="SignupTest1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:18:57 CDT" name="SignupTest1" data-provider="Details" finished-at="2022-09-17T16:19:21 CDT" duration-ms="23259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manjit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[avc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pkk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pkk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupTest1 -->
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:19:21 CDT" name="initSetup" finished-at="2022-09-17T16:19:41 CDT" duration-ms="20683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="SignupTest1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testLayer.SignupTest@9353778]" started-at="2022-09-17T16:19:41 CDT" name="SignupTest1" data-provider="Details" finished-at="2022-09-17T16:19:59 CDT" duration-ms="17848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Balraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[beeebaboyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pkkkk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pkkkk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupTest1 -->
+      </class> <!-- testLayer.SignupTest -->
+      <class name="testLayer.SortTest">
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.SortTest@6580cfdd]" started-at="2022-09-17T16:15:55 CDT" name="initSetup" finished-at="2022-09-17T16:16:01 CDT" duration-ms="5096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="SortTest1()[pri:0, instance:testLayer.SortTest@6580cfdd]" started-at="2022-09-17T16:16:01 CDT" name="SortTest1" finished-at="2022-09-17T16:16:05 CDT" duration-ms="4304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortTest1 -->
+      </class> <!-- testLayer.SortTest -->
+      <class name="testLayer.SearchTest">
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:testLayer.SearchTest@6a400542]" started-at="2022-09-17T16:15:45 CDT" name="initSetup" finished-at="2022-09-17T16:15:51 CDT" duration-ms="5862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method signature="SearchFunctionalityTest1()[pri:0, instance:testLayer.SearchTest@6a400542]" started-at="2022-09-17T16:15:51 CDT" name="SearchFunctionalityTest1" finished-at="2022-09-17T16:15:55 CDT" duration-ms="4298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFunctionalityTest1 -->
+      </class> <!-- testLayer.SearchTest -->
+    </test> <!-- Functional Testing -->
+  </suite> <!-- TestNg Amazon -->
+</testng-results>
